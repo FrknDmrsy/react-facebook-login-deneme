@@ -6,6 +6,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-facebook-login-component": "^0.8.0",
+    "react-google-login": "^2.9.2",
     "react-scripts": "1.0.10"
   },
   "scripts": {

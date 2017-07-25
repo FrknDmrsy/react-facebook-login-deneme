@@ -15,7 +15,7 @@ class Login extends React.Component{
     render () {
         return (
             <div>
-                <FacebookLogin socialId="yourAppID"
+                <FacebookLogin socialId="152346485341405"
                                language="en_US"
                                scope="public_profile,email"
                                responseHandler={this.responseFacebook}

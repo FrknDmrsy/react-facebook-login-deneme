@@ -3,12 +3,9 @@ import GoogleLogin from 'react-google-login';
 
 class Google_Login extends React.Component{
 
-    constructor (props, context) {
-        super(props, context);
-    }
-
     responseGoogle = (response) => {
         console.log(response);
+        console.log(response.profileObj.email)
     }
 
     render () {
@@ -19,6 +16,7 @@ class Google_Login extends React.Component{
                     buttonText="Login"
                     onSuccess={this.responseGoogle}
                     onFailure={this.responseGoogle}
+                    scope='https://www.googleapis.com/auth/admin.directory.resource.calendar'
                 />
             </div>
         );

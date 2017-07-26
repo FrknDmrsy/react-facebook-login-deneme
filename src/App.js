@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Login from  './facebooklogin.js';
 import Google_Login from './googlelogin'
@@ -9,8 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Login/>
-
-        <Google_Login />
+        <Google_Login/>
       </div>
     );
   }

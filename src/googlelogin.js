@@ -16,7 +16,9 @@ class Google_Login extends React.Component{
                     buttonText="Login"
                     onSuccess={this.responseGoogle}
                     onFailure={this.responseGoogle}
-                    scope='https://www.googleapis.com/auth/admin.directory.resource.calendar'
+                    scope='https://www.googleapis.com/auth/calendar'
+                    prompt='consent'
+                    offline={true}
                 />
             </div>
         );
